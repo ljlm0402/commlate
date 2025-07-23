@@ -1,0 +1,25 @@
+{
+  "name": "commlate",
+  "version": "0.1.0",
+  "description": "Effortlessly translate code comments between languages in your JS/TS projects. CLI & library.",
+  "author": "",
+  "keywords": [],
+  "license": "MIT",
+  "main": "dist/index.js",
+  "directories": {
+    "test": "test"
+  },
+  "bin": { "commlate": "dist/cli/index.js" },
+  "type": "module",
+  "scripts": {
+    "build": "tsup",
+    "test": "vitest"
+  },
+  "dependencies": {
+    "node-fetch": "^3.0.0"
+  },
+  "devDependencies": {
+    "tsup": "^7.0.0",
+    "typescript": "^5.0.0"
+  }
+}

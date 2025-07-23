@@ -1,2 +1,8 @@
 # commlate
-🔠 Effortlessly translate code comments between languages. CLI and library for automatic comment translation in JS/TS files.
+
+Effortlessly translate code comments between languages in your JS/TS projects. CLI & library.
+
+## CLI Usage
+
+```bash
+npx commlate <file> [from=ko] [to=en]
